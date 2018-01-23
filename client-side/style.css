@@ -1,0 +1,38 @@
+body{
+  background-color:  #75C25A  !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Login form */
+.loginForm{
+  padding: 35px !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+  box-shadow: 5px 5px 25px 5px;
+}
+/* .btn.greenBtn for login buttom  */
+.btn.greenBtn{
+  background-color: #69ae51 ;
+  width: 100%;
+  border-radius: 0px;
+  transition: 0.5s;
+  color:white;
+}
+.btn.greenBtn:hover{
+  transition: 0.5s;
+  background-color: #5fcb00  ;
+  color: white;
+}
+/* .form-group.loginInput input for from input  */
+.form-group.loginInput input{
+  border-radius: 0px;
+  background-color: #f1f1f1;
+  border-width: 0px;
+  height: 50px;
+}
+.form-group input:focus{
+  background-color: #f1f1f1 !important;
+  border-color: #5fcb00 !important;
+  border-width: 1px;
+}

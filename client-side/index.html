@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>distance</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- include js file -methods -->
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="method/hamming.js"></script>
+    <script type="text/javascript" src="method/Levenshtein.js"></script>
+    <!-- css and jquery -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container loginForm  background-container col-sm-10 col-lg-4 col-lg-offset-4  col-sm-offset-1">
+      <h2>distance</h2>
+      <div class="form-group loginInput">
+        <input id="text1" type="text" class="form-control" placeholder="text a"required>
+      </div>
+      <div class="form-group loginInput">
+        <input id="text2" type="text" class="form-control" placeholder="text b" required>
+      </div>
+      <button type="button" class="btn greenBtn" onclick="main()" id="distance">distance</button><br><br>
+      <div id="result" class="form-control">
+      </div>
+    </div>
+  </body>
+</html>
